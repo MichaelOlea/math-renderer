@@ -28,7 +28,9 @@ The general JSON format and import workflow are still being discussed.
 
 ## Current prototype
 
-The repository currently contains a standalone HTML prototype with six authored derivative lessons:
+The repository currently contains a standalone HTML prototype with eleven authored lessons.
+
+Derivatives:
 
 - Power rule
 - Product rule
@@ -37,9 +39,17 @@ The repository currently contains a standalone HTML prototype with six authored 
 - Trigonometric and exponential combinations
 - An extended four-factor product example
 
+Integrals:
+
+- Power rule for integrals (easy)
+- Definite integral with the Fundamental Theorem of Calculus (easy)
+- u-substitution (medium)
+- Integration by parts, applied twice (hard)
+- Partial fractions (hard)
+
 It includes step navigation, optional hints, solution reviews, responsive layouts, light and dark themes, and embedded equation graphics for offline viewing.
 
-The AI-to-JSON workflow and integral lessons are not implemented yet.
+The AI-to-JSON workflow is not implemented yet.
 
 ## Try it
 
