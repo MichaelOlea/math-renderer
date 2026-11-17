@@ -1,0 +1,4 @@
+# Dev tooling for the rendering tests (the renderer itself has no dependencies)
+node_modules/
+test-results/
+playwright-report/

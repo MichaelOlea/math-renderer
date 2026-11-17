@@ -1,0 +1,14 @@
+{
+  "name": "math-renderer",
+  "private": true,
+  "description": "Dev tooling only (tests and the equation-artwork generator). The renderer itself is the standalone math-rendere.html and needs no install or build.",
+  "scripts": {
+    "test": "node tools/build-artwork.js --check && playwright test",
+    "test:report": "playwright show-report",
+    "artwork": "node tools/build-artwork.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "mathjax-full": "3.2.2"
+  }
+}
